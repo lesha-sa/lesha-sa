@@ -1,16 +1,30 @@
-### Hi there 👋
+README.md ## Skills & Tools: 
+<!-- My:Skills -->
+- POSTMAN / SOAP / Talent API / REST / JIRA  
+- TestRail / DevTools / SQL / FIGMA / Notion 
+- Swagger / Docker / DBeaver / JSON / XML / HTML
+- Grey Box Testing / E2E Testing / Regression Testing / Scrum and Agile
 
-<!--
-**lesha-sa/lesha-sa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## My CV:
+<!-- MY:CV -->
+[Link to my CV](link to the file )
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Latest Postman Collection:
+<!-- POSTMAN:COLLECTION -->
+Currently working on: [Postman collection(Dev.bg and others)]( link to the file )
+
+
+## Testing Documentation:
+<!-- TESTING:DOCUMENTATION -->
+Currently working on:
+[Example of Test-Cases and Bug-Report](link to the file )
+
+## Languages:
+<!-- MY:LANGUAGES -->
+Russian and English
+
+## Contact me:
+<!-- REACH:ME -->
+- 💬 Ask me about anything you want and I will gladly answer 🙂
+- 📫 enter your e-mail
