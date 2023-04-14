@@ -1,13 +1,10 @@
-README.md ## Skills & Tools: 
+
 <!-- My:Skills -->
 - POSTMAN / SOAP / Talent API / REST / JIRA  
 - TestRail / DevTools / SQL / FIGMA / Notion 
 - Swagger / Docker / DBeaver / JSON / XML / HTML
 - Grey Box Testing / E2E Testing / Regression Testing / Scrum and Agile
 
-## My CV:
-<!-- MY:CV -->
-[Link to my CV](link to the file )
 
 
 ## Latest Postman Collection:
