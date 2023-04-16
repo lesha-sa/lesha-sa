@@ -9,7 +9,7 @@
 
 ## Latest Postman Collection:
 <!-- POSTMAN:COLLECTION -->
-Currently working on: [Postman collection(Dev.bg and others)]( link to the file )
+Currently working on: [Postman collection(Dev.bg and others)]( [(https://elements.getpostman.com/redirect?entityId=26681951-61426323-798e-4e76-a17a-51de202159b8&entityType=collection) )]
 
 
 ## Testing Documentation:
