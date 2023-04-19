@@ -2,7 +2,7 @@
 <!-- My:Skills -->
 - POSTMAN / SOAP / Talent API / REST / JIRA  
 - TestRail / DevTools / SQL / FIGMA / Notion 
-- Swagger / Docker / DBeaver / JSON / XML / HTML
+- Swagger / Docker / DBeaver / JSON / XML
 - Grey Box Testing / E2E Testing / Regression Testing / Scrum and Agile
 
 
