@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S1</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>test QA Studio</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C2</id>
+				<title>Functional test buying an item in a store</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Open https://test.qa.studio/</preconds>
+										<steps_separated><step>
+<index>1</index><content>Scroll down until the first products appear</content><expected>Page moved down to products</expected></step>
+<step>
+<index>2</index><content>Click over the second product</content><expected>Page opened with a detailed description</expected></step>
+<step>
+<index>3</index><content>Click on &quot;В корзину&quot;</content><expected>Submenu &quot;Ваша корзина&quot; opened on the right </expected></step>
+<step>
+<index>4</index><content>Click on &quot;Оформление заказа&quot;</content><expected>Page &quot;Оформление заказа&quot; opened </expected></step>
+<step>
+<index>5</index><content>Fill in required fields with test data:
+1. &quot;Имя&quot; - &quot;Иван&quot;
+2. &quot;Фамилия&quot; - &quot;Иванов&quot;
+3. &quot;Страна/регион&quot; - leave default selection &quot;Россия&quot;
+4. &quot;Адрес&quot; - &quot;23 Крылова&quot;
+5. &quot;Населённый пункт&quot; - &quot;Москва&quot;
+6. &quot;Область/район&quot; - &quot;Московская область&quot;
+7. &quot;Почтовый индекс&quot; - &quot;150033&quot;
+8. &quot;Телефон&quot; - &quot;9-999-999-99-99&quot;
+9. &quot;Email&quot; - &quot;test@gmail.com&quot;
+
+
+</content><expected>Fields completed without errors</expected></step>
+<step>
+<index>6</index><content>Click on &quot;Подтвердить заказ&quot;</content><expected>Button &quot;Оформить заказ&quot; clicked and the page opened &quot;Ваш заказ принят. Благодарим вас&quot;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Main page/Каталог</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C8</id>
+				<title>Сarousel switch</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Open https://test.qa.studio/</preconds>
+										<steps_separated><step>
+<index>1</index><content>Switch to second products by clicking on the switch in the lower left corner of the carousel</content><expected>Carousel switched to second product</expected></step>
+<step>
+<index>2</index><content>Switch to first products by clicking on the switch in the lower left corner of the carousel</content><expected>Carousel switched to first product</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C9</id>
+				<title>Button &quot;Купить сейчас&quot;  with the first product</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Open https://test.qa.studio/ </preconds>
+										<steps_separated><step>
+<index>1</index><content>Check that the first item in the carousel is selected</content><expected>First item in the carousel is selected</expected></step>
+<step>
+<index>2</index><content>Click button &quot;Купить сейчас&quot;</content><expected>Page opened with a description of the product</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C10</id>
+				<title>Button &quot;Купить сейчас&quot; with the second product</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Open https://test.qa.studio/</preconds>
+										<steps_separated><step>
+<index>1</index><content>Switch to 2 products by clicking on the switch in the lower left corner of the carousel</content><expected>Carousel switched to 2 product</expected></step>
+<step>
+<index>2</index><content>Click button &quot;Купить сейчас&quot;</content><expected>Page opened with a description of the product</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>product description</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Контент каталога</name>
+		<description>All products and a variety of filtering to search for products</description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Header</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C4</id>
+				<title>Checking all links in the header</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>open https://test.qa.studio/ </preconds>
+										<steps_separated><step>
+<index>1</index><content>Click on &quot;Каталог&quot;</content><expected>Page &quot;Каталог&quot; opened </expected></step>
+<step>
+<index>2</index><content>Click on &quot;Часто задаваемые вопросы&quot;</content><expected>Page &quot;Часто задаваемые вопросы&quot; opened</expected></step>
+<step>
+<index>3</index><content>Click on &quot;Блог&quot;</content><expected>Page &quot;Блог&quot; opened</expected></step>
+<step>
+<index>4</index><content>Click on &quot;О компании&quot;</content><expected>Page &quot;О компании&quot; opened</expected></step>
+<step>
+<index>5</index><content>Click on &quot;Контакты&quot;</content><expected>Page &quot;Контакты&quot; opened</expected></step>
+<step>
+<index>6</index><content>Click on search icon</content><expected>Submenu &quot;Поиск товаров&quot; opened</expected></step>
+<step>
+<index>7</index><content>Click on the cross to close the submenu</content><expected>Submenu closed</expected></step>
+<step>
+<index>8</index><content>Click on wishlist button</content><expected>Page &quot;Список желаний&quot; opened</expected></step>
+<step>
+<index>9</index><content>Click on cart </content><expected>Submenu &quot;Ваша корзина&quot; opened</expected></step>
+<step>
+<index>10</index><content>Click on the cross to close the submenu</content><expected>Submenu closed</expected></step>
+<step>
+<index>11</index><content>Click on website banner logo &quot;QA Studio&quot;</content><expected>Main page opened</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C5</id>
+				<title>Visual inspection for grammatical errors</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Open https://test.qa.studio/ </preconds>
+										<steps_separated><step>
+<index>1</index><content>Look at the Navigation menu in the header</content><expected>There are no grammatical errors </expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>Test &quot;Поиск товаров&quot;</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C7</id>
+				<title>Positive functional test input &quot;Поиск товаров&quot; in search menu</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Open https://test.qa.studio/</preconds>
+										<steps_separated><step>
+<index>1</index><content>Click Search icon</content><expected>Submenu &quot;Поиск товаров&quot; opened  </expected></step>
+<step>
+<index>2</index><content>Click search field &quot;Поиск товаров&quot;</content><expected>Selected search field &quot;Поиск товаров&quot;</expected></step>
+<step>
+<index>3</index><content>Input test data:
+1. &quot;Стул&quot;
+</content><expected>Product page opened</expected></step>
+<step>
+<index>4</index><content>Scroll down to chairs</content><expected>Page scrolled down to chairs</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C11</id>
+				<title>Negative functional test input &quot;Поиск товаров&quot; in search field</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>open https://test.qa.studio/</preconds>
+										<steps_separated><step>
+<index>1</index><content>Click Search icon</content><expected>Submenu &quot;Поиск товаров&quot; opened</expected></step>
+<step>
+<index>2</index><content>Click search field &quot;Поиск товаров&quot;</content><expected>Selected search field &quot;Поиск товаров&quot;</expected></step>
+<step>
+<index>3</index><content>Input test data:
+1. Test
+2. Шкоф
+3. 12345
+4. &quot;    &quot;
+5 !&quot;№%№;</content><expected>1. Product page opened
+2. Product page opened
+3. Product page opened
+4. Product page opened
+5. Product page opened
+</expected></step>
+<step>
+<index>4</index><content>Scroll down</content><expected>A notification has appeared &quot;Товаров, соответствующих вашему запросу, не обнаружено&quot;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C6</id>
+				<title>Drop-down menu &quot;Поиск товаров&quot;</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Open https://test.qa.studio/ </preconds>
+										<steps_separated><step>
+<index>1</index><content>Click Search icon</content><expected>Submenu &quot;Поиск товаров&quot; opened </expected></step>
+<step>
+<index>2</index><content>Click drop-down menu &quot;Все категории&quot;</content><expected>Drop-down menu is opened</expected></step>
+<step>
+<index>3</index><content>Click &quot;Диваны&quot;</content><expected>Selected menu item &quot;Диваны&quot;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Test &quot;Список желаний&quot;</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C12</id>
+				<title>Add product to &quot;Список желаний&quot; without opening a detailed description of the product</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Open https://test.qa.studio/</preconds>
+										<steps_separated><step>
+<index>1</index><content>Scroll down until the first products appear</content><expected>Page moved down to products</expected></step>
+<step>
+<index>2</index><content>Hover your mouse over the second product</content><expected>There are three additional submenus</expected></step>
+<step>
+<index>3</index><content>Click on white heart
+</content><expected>Heart turned black</expected></step>
+<step>
+<index>4</index><content>Click on black heart</content><expected>Page &quot;Список желаний&quot; opened</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C14</id>
+				<title>Add to &quot;Список желаний&quot; through a detailed description of the product</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Open https://test.qa.studio/</preconds>
+										<steps_separated><step>
+<index>1</index><content>Scroll down until the first products appear</content><expected>Page moved down to products</expected></step>
+<step>
+<index>2</index><content>Hover mouse over the second product and click</content><expected>Opened a page with a detailed description</expected></step>
+<step>
+<index>3</index><content>Click on white heart</content><expected>Heart turned black</expected></step>
+<step>
+<index>4</index><content>Click on black heart</content><expected>Page &quot;Список желаний&quot; opened</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C13</id>
+				<title>Removing a product from &quot;Список желаний&quot;</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Open https://test.qa.studio
+
+
+</preconds>
+										<steps_separated><step>
+<index>1</index><content>Scroll down until the first products appear</content><expected>Page moved down to products</expected></step>
+<step>
+<index>2</index><content>Hover mouse over the second product</content><expected>There are three additional submenus</expected></step>
+<step>
+<index>3</index><content>Click on white heart</content><expected>Heart turned black</expected></step>
+<step>
+<index>4</index><content>Click on black heart</content><expected>Page &quot;Список желаний&quot; opened</expected></step>
+<step>
+<index>5</index><content>Click on the cross to the left of the product</content><expected>The product has been removed from &quot;Список желаний&quot; и появилось уведомление &quot;Продукт успешно удален из избранного&quot;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C15</id>
+				<title>Add to cart from &quot;Список желаний&quot;</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Open https://test.qa.studio/</preconds>
+										<steps_separated><step>
+<index>1</index><content>Scroll down until the first products appear</content><expected>Page moved down to products</expected></step>
+<step>
+<index>2</index><content>Hover your mouse over the second product</content><expected>There are three additional submenus</expected></step>
+<step>
+<index>3</index><content>Click on white heart</content><expected>Heart turned black</expected></step>
+<step>
+<index>4</index><content>Click on black heart</content><expected>Page &quot;Список желаний&quot; opened</expected></step>
+<step>
+<index>5</index><content>Click &quot;В корзину&quot;</content><expected>Page &quot;Корзина&quot; opened</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Test Cart</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C16</id>
+				<title>Add product to &quot;Корзина&quot; without opening a detailed description of the product</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Open https://test.qa.studio/ </preconds>
+										<steps_separated><step>
+<index>1</index><content>Scroll down until the first products appear</content><expected>	
+Page moved down to products</expected></step>
+<step>
+<index>2</index><content>Hover your mouse over the second product</content><expected>There are three additional submenus</expected></step>
+<step>
+<index>3</index><content>Click over the bag-shaped submenu</content><expected>Submenu &quot;Ваша корзина&quot; opened on the right </expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C17</id>
+				<title>Delete product from &quot;Корзина&quot; without opening a detailed description of the product</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Open https://test.qa.studio/</preconds>
+										<steps_separated><step>
+<index>1</index><content>Scroll down until the first products appear</content><expected>Page moved down to products</expected></step>
+<step>
+<index>2</index><content>Hover your mouse over the second product</content><expected>There are three additional submenus</expected></step>
+<step>
+<index>3</index><content>Click over the bag-shaped submenu</content><expected>Submenu &quot;Ваша корзина&quot; opened on the right</expected></step>
+<step>
+<index>4</index><content>Click on &quot;Удалить&quot;</content><expected>The product has been deleted and the cart is empty</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C18</id>
+				<title>Add product to &quot;Корзина&quot;  through a detailed description of the product</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Open https://test.qa.studio/</preconds>
+										<steps_separated><step>
+<index>1</index><content>Scroll down until the first products appear</content><expected>Page moved down to products</expected></step>
+<step>
+<index>2</index><content>Hover mouse over the second product and click</content><expected>Opened a page with a detailed description</expected></step>
+<step>
+<index>3</index><content>Click on &quot;В корзину&quot;</content><expected>Submenu &quot;Ваша корзина&quot; opened on the right</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C19</id>
+				<title>Delete product from &quot;Корзина&quot; through a detailed description of the product</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Open https://test.qa.studio/ </preconds>
+										<steps_separated><step>
+<index>1</index><content>Scroll down until the first products appear</content><expected>	
+Page moved down to products</expected></step>
+<step>
+<index>2</index><content>Hover mouse over the second product and click</content><expected>Opened a page with a detailed description</expected></step>
+<step>
+<index>3</index><content>Click on &quot;В корзину&quot;</content><expected>	
+Submenu &quot;Ваша корзина&quot; opened on the right</expected></step>
+<step>
+<index>4</index><content>Click on &quot;Удалить&quot;</content><expected>The product has been deleted and the cart is empty</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+</suite>
